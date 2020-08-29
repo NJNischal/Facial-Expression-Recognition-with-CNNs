@@ -41,27 +41,32 @@ Flask
 
 # Pipeline
 
-1) 
+1) Take the video stream and convert it to frames. Use Haar cascades to identify and draw bounding box around faces.
 
+2) Pass the Region of Interest (Face patch) to the pretrained model. Use Forward feed to detect the expression.
+
+3) Take the output of the model and add the label to the image and return the frame as a 'jpeg' file.
+
+4) Use flask to publish the resulting frames onto the website. (HTML file has the template for video output) The output is deployed on 'http://localhost:5000/' web address.
 
 # Results
 <p align="center">
 <img src="Outputs/Graph_15_epoch.png">
-<em> Accuracy plots for 15 epochs</em>
+<em> Accuracy and Loss Plots 15 epochs</em>
 </p>
 
 
 
 <p align="center">
 <img src="Outputs/Graph_25_epoch.png">
-<em> Accuracy plots for 25 epochs</em>
+<em> Accuracy and Loss Plots for 25 epochs</em>
 </p>
 
 
 
 <p align="center">
 <img src="Outputs/Graph_50_epoch.png">
-<em> Accuracy plots for 50 epochs</em>
+<em> Accuracy and Loss Plots for 50 epochs</em>
 </p>
 
 
@@ -87,7 +92,7 @@ The Repository is Licensed under the MIT License.
 ```
 MIT License
 
-Copyright (c) 2019 Charan Karthikeyan Parthasarathy Vasanthi, Nagireddi Jagadesh Nischal, Sai Manish V
+Copyright (c) 2020 Nagireddi Jagadesh Nischal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
