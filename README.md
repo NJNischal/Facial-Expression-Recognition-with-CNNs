@@ -21,14 +21,23 @@ The video input can be changed to take in webcam by uncommenting one line of cod
 
 # Project Requirements/ Dependencies
 TensorFlow-GPU
+
 OpenCV
+
 Seaborn
+
 Matplotlib
+
 Keras
+
 Livelossplot
+
 Flask
 
 # CNN model architecture
+<p align="center">
+  <img src="Outputs/CNN.png">
+</p>
 
 # Pipeline
 
