@@ -28,7 +28,18 @@ Keras
 Livelossplot
 Flask
 
+# CNN model architecture
+
 # Pipeline
+
+# Results
+
+![Epoch 15](Outputs/Graph_15_epoch.png)
+
+![Epoch 15](Outputs/Graph_25_epoch.png)
+
+![Epoch 15](Outputs/Graph_50_epoch.png)
+
 
 # Command to run code
 ```
