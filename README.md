@@ -35,7 +35,7 @@ Livelossplot
 Flask
 
 # CNN model architecture
-<p align="center">
+<p align="left">
   <img src="Outputs/CNN.png">
 </p>
 
@@ -86,6 +86,8 @@ The data in the 'Disgust' class can be augmented to get a more generalized model
 
 # References
 Coursera: https://www.coursera.org/projects/facial-expression-recognition-keras
+
+Challenges in Representation Learning: https://arxiv.org/pdf/1307.0414.pdf
 
 # Licence
 The Repository is Licensed under the MIT License.
