@@ -41,13 +41,28 @@ Flask
 
 # Pipeline
 
+1) 
+
+
 # Results
+<p align="center">
+<img src="Outputs/Graph_15_epoch.png">
+<em> Accuracy plots for 15 epochs</em>
+</p>
 
-![Epoch 15](Outputs/Graph_15_epoch.png)
 
-![Epoch 15](Outputs/Graph_25_epoch.png)
 
-![Epoch 15](Outputs/Graph_50_epoch.png)
+<p align="center">
+<img src="Outputs/Graph_25_epoch.png">
+<em> Accuracy plots for 25 epochs</em>
+</p>
+
+
+
+<p align="center">
+<img src="Outputs/Graph_50_epoch.png">
+<em> Accuracy plots for 50 epochs</em>
+</p>
 
 
 # Command to run code
@@ -61,6 +76,8 @@ Coursera certificate for the project: https://coursera.org/share/cb5b1cee88ad5de
 # Known Issues/Bugs
 
 The Haar Cascades are not the most robust way of identifying faces. Observed a few false face detections at times near a person's neck. A better approach would be to use DLib library for a faster and more accurate face detection. (http://dlib.net/) Would be working on Dlib library for future projects.
+
+The data in the 'Disgust' class can be augmented to get a more generalized model. 
 
 # References
 Coursera: https://www.coursera.org/projects/facial-expression-recognition-keras
